@@ -6,7 +6,7 @@
     align-items: center;
     justify-content: space-between;
 
-   margin-top: 198px;
+   margin-top: 158px;
 
 }
 
@@ -74,4 +74,24 @@ img{
 h1{
     color: var(--tittle-color);
     align-items: center;
+}
+
+li{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 80vmax;
+    list-style-type: none;
+}
+
+li a{
+    margin-left: 15px;
+}
+
+li .header{
+    margin-top: 10px;
+    margin-left: 10px;
 }
