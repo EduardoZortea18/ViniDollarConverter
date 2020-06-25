@@ -14,4 +14,3 @@ function ConvertToEuro(){
 
     document.getElementById('euro').value = "  € " + euroPrice;
 }
-
