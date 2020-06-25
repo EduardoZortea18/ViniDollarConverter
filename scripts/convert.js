@@ -1,5 +1,5 @@
 document.getElementById('real').addEventListener('keyup', ConvertToDollar);
-// document.getElementById('dollar').addEventListener('keyup', ConvertToReal);
+document.getElementById('real').addEventListener('keyup', ConvertToEuro);
 
 function ConvertToDollar(){
     let realPrice = document.getElementById('real').value;
@@ -8,13 +8,10 @@ function ConvertToDollar(){
     document.getElementById('dollar').value = "  $ " + dollarPrice;
 }
 
-// function ConvertToReal(){
-//     let dollarPrice = document.getElementById('dollar').value;
-//     let realPrice = dollarPrice / 5;
+function ConvertToEuro(){
+    let realPrice = document.getElementById('real').value;
+    let euroPrice = realPrice * 6.5;
 
-//     document.getElementById('real').type = 'text';
-//     document.getElementById('real').value = "  R$ " + realPrice;
-//     document.getElementById('real').type = 'number';
+    document.getElementById('euro').value = "  € " + euroPrice;
+}
 
-
-// }
