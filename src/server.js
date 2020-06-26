@@ -19,4 +19,4 @@ server.get("/euro", (req, res) => {
     return res.render("euro.html")
 });
 
-server.listen(5000);
+server.listen(process.env.PORT || 5000);
