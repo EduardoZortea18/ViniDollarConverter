@@ -7,7 +7,6 @@
     "start": "nodemon /src/server.js"
   },
   "devDependencies": {},
-  
   "repository": {
     "type": "git",
     "url": "git+https://github.com/EduardoZortea18/ViniDollarConverter.git"
@@ -20,7 +19,9 @@
   },
   "homepage": "https://github.com/EduardoZortea18/ViniDollarConverter#readme",
   "dependencies": {
+    "cli": "^1.0.1",
     "express": "^4.17.1",
+    "heroku": "^7.42.1",
     "nunjucks": "^3.2.1"
   }
 }
